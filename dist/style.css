@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=family=Montserrat|Sree+Krushnadevaraya);
+
+html {
+  background: url("background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.messages {
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.clock {
+  font-family: 'Sree+Krushnadevaraya', sans-serif;
+  font-size: 1000%;
+  -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+}
+
+.greeting {
+  font-size: 350%;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  top: 50%;
+  -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+}
+
+.searchbar {
+  padding-top: 5%;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  top: 50%;  
+}
+
+.search-container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+input#search-bar{
+  margin: 0 auto;
+  width: 90%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  outline: none;
+ }
+
+.search-icon{
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -62px;
+  right: 0;
+}
+
+.system-message {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 160%;
+  color: whitesmoke;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  align-items: center;
+  justify-content: center;
+}
+
